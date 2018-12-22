@@ -46,6 +46,6 @@ class ViewController: UIViewController {
     @IBAction func mainButtonAction(_ sender: Any) {
         
         // Animate here
-    }    
+    }
 }
 

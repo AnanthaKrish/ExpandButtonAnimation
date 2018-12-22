@@ -153,9 +153,7 @@ class ViewController: UIViewController {
                     
                     self.collapseAnimator?.startAnimation()
                     self.buttonLabel2.alpha = 0
-                    UIView.animate(withDuration: 0.3, delay: 0, animations: {
-                        
-                        self.secondButton.transform = CGAffineTransform(translationX: -30, y: -30)
+                    UIView.animate(withDuration: 0.3, delay: 0, animations: {                        
                         UIView.animate(withDuration: 0.5, delay: 0.1, animations: {
                             self.secondButton.transform = .identity
                         })

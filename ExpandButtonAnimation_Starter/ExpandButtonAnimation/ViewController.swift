@@ -35,25 +35,9 @@ class ViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
-        
     
-
         self.mainButton.imageView?.contentMode = .center
         self.mainButton.imageView?.clipsToBounds = false
-        
-        self.secondButton.center = self.mainButton.center
-        self.thirdButton.center = self.secondButton.center
-        self.fourthButton.center = self.thirdButton.center
-       
-        self.thirdButton.alpha = 0
-        self.fourthButton.alpha = 0
-        
-        self.buttonLabel4.alpha = 0
-        self.buttonLabel3.alpha = 0
-        self.buttonLabel2.alpha = 0
-        
-        self.buttonLabel2.translatesAutoresizingMaskIntoConstraints = false
-        
     }
 
     /**
@@ -61,12 +45,7 @@ class ViewController: UIViewController {
      */
     @IBAction func mainButtonAction(_ sender: Any) {
         
-        if mainButton.imageView?.transform != .identity {
-             //self.secondButton.alpha = 1
-             animate(true)
-        } else {
-            animate(false)
-        }
+        // Animate here
     }
     
      // MARK: Animators

@@ -23,11 +23,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonLabel3: UILabelX!
     @IBOutlet weak var buttonLabel2: UILabelX!
     
-    var expandAnimator:UIViewPropertyAnimator?
-    var collapseAnimator:UIViewPropertyAnimator?
-    
-    
-    
     // MARK: Functions
     override func viewDidLoad() {
         super.viewDidLoad()

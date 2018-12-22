@@ -45,25 +45,4 @@ class UIButtonX: UIButton {
             layer.shadowOffset = shadowOffset
         }
     }
-    
-    /**
-     handles main button image animation
-     */
-    override func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
-        
-        if self.imageView?.transform == .identity {
-            UIView.animate(withDuration: 0.50, animations: {
-                self.imageView?.transform = CGAffineTransform(rotationAngle: 45 * (.pi / 180))
-            }) { (completion) in
-                
-            }
-        } else {
-            UIView.animate(withDuration: 0.50, animations: {
-                self.imageView?.transform = .identity
-            }) { (completion) in
-            }
-        }
-        super.layoutSubviews()        
-        return super.beginTracking(touch, with: event)
-    }
 }

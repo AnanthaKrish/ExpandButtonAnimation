@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FancyPantsNF.ttf">
+            <string>FancyPantsNF</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ExpandButtonAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRU-th-Eq8" customClass="UIButtonX2" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="240" y="337" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.27058823529999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <color key="tintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isEnabledInitFromAnimation" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcK-GP-GSP" customClass="UIButtonX2" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="240" y="449" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.27058823529999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <color key="tintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isEnabledInitFromAnimation" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJJ-Eg-OWW" customClass="UIButtonX2" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="240" y="568" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.27058823529999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <color key="tintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isEnabledInitFromAnimation" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KO8-i6-fOp" customClass="UIButtonX" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="285" y="674" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.27058823529999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="cby-uc-z5p"/>
+                                    <constraint firstAttribute="height" constant="60" id="vAb-V9-ljj"/>
+                                </constraints>
+                                <color key="tintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" image="MainButton">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="2" height="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="mainButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qLZ-4g-51V"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Button 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H38-Pj-1q8" customClass="UILabelX" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="132" y="583" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorValue">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Button 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzs-Io-L7x" customClass="UILabelX" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="132" y="464" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorValue">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Button 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFa-GO-JCb" customClass="UILabelX" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="132" y="352" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorValue">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME !!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76N-4Y-878">
+                                <rect key="frame" x="75" y="142" width="225" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FancyPantsNF" family="Fancy Pants NF" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KO8-i6-fOp" secondAttribute="trailing" constant="30" id="416-Yh-1ne"/>
+                            <constraint firstAttribute="bottom" secondItem="KO8-i6-fOp" secondAttribute="bottom" constant="78" id="ZQu-C2-mW8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonLabel2" destination="H38-Pj-1q8" id="IHE-PE-WKO"/>
+                        <outlet property="buttonLabel3" destination="dzs-Io-L7x" id="FsD-C0-jFu"/>
+                        <outlet property="buttonLabel4" destination="cFa-GO-JCb" id="fXF-lw-Wz1"/>
+                        <outlet property="fourthButton" destination="eRU-th-Eq8" id="bI5-AI-rmS"/>
+                        <outlet property="mainButton" destination="KO8-i6-fOp" id="Afu-JY-21B"/>
+                        <outlet property="secondButton" destination="jJJ-Eg-OWW" id="Z5a-2D-WCa"/>
+                        <outlet property="thirdButton" destination="FcK-GP-GSP" id="Wsd-ME-oK6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.26600985221674"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MainButton" width="55" height="55"/>
+    </resources>
+</document>

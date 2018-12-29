@@ -22,10 +22,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRU-th-Eq8" customClass="UIButtonX2" customModule="ExpandButtonAnimation" customModuleProvider="target">
-                                <rect key="frame" x="240" y="337" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRU-th-Eq8" customClass="UIButtonX2" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="250" y="404" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.27058823529999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="CHt-UK-qoO"/>
+                                    <constraint firstAttribute="height" constant="60" id="Pkl-uF-1uS"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 <color key="tintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                 <state key="normal" title="4">
@@ -38,10 +41,13 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isEnabledInitFromAnimation" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcK-GP-GSP" customClass="UIButtonX2" customModule="ExpandButtonAnimation" customModuleProvider="target">
-                                <rect key="frame" x="240" y="449" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcK-GP-GSP" customClass="UIButtonX2" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="250" y="494" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.27058823529999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="RF4-i1-uye"/>
+                                    <constraint firstAttribute="height" constant="60" id="rL9-CF-7tB"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 <color key="tintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                 <state key="normal" title="3">
@@ -54,10 +60,13 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isEnabledInitFromAnimation" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJJ-Eg-OWW" customClass="UIButtonX2" customModule="ExpandButtonAnimation" customModuleProvider="target">
-                                <rect key="frame" x="240" y="568" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJJ-Eg-OWW" customClass="UIButtonX2" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="250" y="584" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.27058823529999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="BmW-JI-AVN"/>
+                                    <constraint firstAttribute="width" constant="60" id="m4V-v3-6qn"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 <color key="tintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                 <state key="normal" title="2">
@@ -102,9 +111,12 @@
                                     <action selector="mainButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qLZ-4g-51V"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Button 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H38-Pj-1q8" customClass="UILabelX" customModule="ExpandButtonAnimation" customModuleProvider="target">
-                                <rect key="frame" x="132" y="583" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Button 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H38-Pj-1q8" customClass="UILabelX" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="140" y="599" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PIC-Fo-vwh"/>
+                                    <constraint firstAttribute="width" constant="100" id="Ur2-MG-9ac"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -117,24 +129,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Button 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzs-Io-L7x" customClass="UILabelX" customModule="ExpandButtonAnimation" customModuleProvider="target">
-                                <rect key="frame" x="132" y="464" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorValue">
-                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Button 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFa-GO-JCb" customClass="UILabelX" customModule="ExpandButtonAnimation" customModuleProvider="target">
-                                <rect key="frame" x="132" y="352" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Button 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzs-Io-L7x" customClass="UILabelX" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="140" y="509" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="bem-Qg-pN6"/>
+                                    <constraint firstAttribute="height" constant="30" id="cLH-Xg-pCS"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -154,11 +154,41 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Button 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFa-GO-JCb" customClass="UILabelX" customModule="ExpandButtonAnimation" customModuleProvider="target">
+                                <rect key="frame" x="140" y="419" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="LM9-IO-1fn"/>
+                                    <constraint firstAttribute="height" constant="30" id="mdo-Zd-p4l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorValue">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="KO8-i6-fOp" firstAttribute="top" secondItem="jJJ-Eg-OWW" secondAttribute="bottom" constant="30" id="0hr-pV-9gW"/>
                             <constraint firstAttribute="trailing" secondItem="KO8-i6-fOp" secondAttribute="trailing" constant="30" id="416-Yh-1ne"/>
+                            <constraint firstItem="H38-Pj-1q8" firstAttribute="centerY" secondItem="jJJ-Eg-OWW" secondAttribute="centerY" id="BBf-kL-4ja"/>
+                            <constraint firstItem="jJJ-Eg-OWW" firstAttribute="top" secondItem="FcK-GP-GSP" secondAttribute="bottom" constant="30" id="KKF-Ym-G7w"/>
+                            <constraint firstItem="cFa-GO-JCb" firstAttribute="centerY" secondItem="eRU-th-Eq8" secondAttribute="centerY" id="XAM-OE-bqq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eRU-th-Eq8" secondAttribute="trailing" constant="65" id="XVq-Hd-IhQ"/>
                             <constraint firstAttribute="bottom" secondItem="KO8-i6-fOp" secondAttribute="bottom" constant="78" id="ZQu-C2-mW8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FcK-GP-GSP" secondAttribute="trailing" constant="65" id="djp-Rw-sv0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jJJ-Eg-OWW" secondAttribute="trailing" constant="65" id="iV7-Hl-qQ0"/>
+                            <constraint firstItem="FcK-GP-GSP" firstAttribute="top" secondItem="eRU-th-Eq8" secondAttribute="bottom" constant="30" id="mUP-rK-GT3"/>
+                            <constraint firstItem="eRU-th-Eq8" firstAttribute="leading" secondItem="cFa-GO-JCb" secondAttribute="trailing" constant="10" id="rWD-GL-LZ0"/>
+                            <constraint firstItem="FcK-GP-GSP" firstAttribute="leading" secondItem="dzs-Io-L7x" secondAttribute="trailing" constant="10" id="rXT-df-fQc"/>
+                            <constraint firstItem="jJJ-Eg-OWW" firstAttribute="leading" secondItem="H38-Pj-1q8" secondAttribute="trailing" constant="10" id="tKa-PE-0IZ"/>
+                            <constraint firstItem="dzs-Io-L7x" firstAttribute="centerY" secondItem="FcK-GP-GSP" secondAttribute="centerY" id="zr8-wj-Hsf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

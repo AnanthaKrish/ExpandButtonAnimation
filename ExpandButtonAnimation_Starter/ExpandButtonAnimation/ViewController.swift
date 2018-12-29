@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     // MARK: Properties (Public)
     
@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonLabel3: UILabelX!
     @IBOutlet weak var buttonLabel2: UILabelX!
     
+    
     // MARK: Functions
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,17 +31,19 @@ class ViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
-    
+        
+        
+        
         self.mainButton.imageView?.contentMode = .center
         self.mainButton.imageView?.clipsToBounds = false
+    
     }
-
+    
     /**
      Action for Main Button
      */
     @IBAction func mainButtonAction(_ sender: Any) {
-        
-        // Animate here
+
     }
 }
 

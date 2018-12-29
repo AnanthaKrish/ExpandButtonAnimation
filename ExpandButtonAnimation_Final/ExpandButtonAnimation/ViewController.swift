@@ -79,7 +79,7 @@ class ViewController: UIViewController {
             UIViewPropertyAnimator(duration: 0.3, curve: .easeInOut, animations: {
                 
                 
-                UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseInOut, animations: {
+              //  UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseInOut, animations: {
                     
                     self.secondButton.transform = CGAffineTransform(translationX: -30, y: -30)
                     
@@ -106,7 +106,7 @@ class ViewController: UIViewController {
                             })
                         })
                     })
-                })
+               // })
                 
             }).startAnimation()
             
@@ -123,14 +123,14 @@ class ViewController: UIViewController {
                     self.buttonLabel4.alpha = 0
                     self.fourthButton.alpha = 0
                     
-                    UIView.animate(withDuration: 0.3, delay: 0.2, options: .curveEaseInOut, animations: {
+                    UIView.animate(withDuration: 0.3, delay: 0.3, options: .curveEaseInOut, animations: {
                         
                         
                         self.buttonLabel3.alpha = 0
                         self.thirdButton.transform = .identity
                         self.thirdButton.alpha = 0
                         
-                        UIView.animate(withDuration: 0.3, delay: 0.2 , options: .curveEaseInOut, animations: {
+                        UIView.animate(withDuration: 0.3, delay: 0.3 , options: .curveEaseInOut, animations: {
                             
                             self.secondButton.transform = .identity
                             self.buttonLabel2.alpha = 0

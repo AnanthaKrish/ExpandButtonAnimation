@@ -58,7 +58,7 @@ class UIButtonX: UIButton {
                 
             }
         } else {
-            UIView.animate(withDuration: 0.50, animations: {
+            UIView.animate(withDuration: 0.50, delay: 0.6, animations: {
                 self.imageView?.transform = .identity
             }) { (completion) in
             }
